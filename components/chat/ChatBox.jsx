@@ -8,11 +8,13 @@ import ListGroup from "react-bootstrap/ListGroup";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 
-const ENDPOINT =
-  window.location.host.indexOf("localhost") >= 0
+let ENDPOINT=null;
+if (typeof window !== "undefined") {
+  
+  ENDPOINT=  window.location.host.indexOf("localhost") >= 0
     ? "http://localhost:8000"
     : window.location.host;
-
+ }
 export default function ChatBox({ isOpen, fromUser, toUser }) {
   const uiMessagesRef = useRef(null);
 

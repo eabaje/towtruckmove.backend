@@ -24065,6 +24065,10 @@ div.dtk-focus-alt table.dataTable tbody th.focus {
     overflow: hidden;
     min-width: 100%;
     min-height: 100vh;
+    background-image: url("../images/auth/flatbed-tow-truck.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     /* background:#023669; */
    
     
@@ -24072,7 +24076,10 @@ div.dtk-focus-alt table.dataTable tbody th.focus {
 
 @media (min-width: 1200px) {
     .auth-wrapper .container {
+
         max-width: 1140px;
+       
+    
     }
 }
 
@@ -24143,12 +24150,15 @@ div.dtk-focus-alt table.dataTable tbody th.focus {
 .auth-wrapper > div {
    
     z-index: 5;
+    
 }
 
 .auth-wrapper .auth-content {
     position: relative;
     padding: 15px;
     z-index: 5;
+    opacity: 0.9; 
+   
    
 }
 

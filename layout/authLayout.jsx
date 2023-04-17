@@ -9,9 +9,9 @@ import "react-toastify/dist/ReactToastify.css";
 // };
 
 const AuthLayout = ({ children }) => (
-  <div>
+  <>
     <div className="auth-wrapper">
-      <div className="auth-content">
+      <div className="auth-content ">
         <div className="card">
           <div className="row align-items-center text-center">
             <div className="col-md-12">
@@ -21,7 +21,7 @@ const AuthLayout = ({ children }) => (
                   alt=""
                   className="logo-main"
                 />
-                <h4 className="mb-3 f-w-700">Global Load Dispatch</h4>
+                <h4 className="mb-3 f-w-700">Tow Truck Move</h4>
                 <ToastContainer position="top-center" />
                 {children}
               </div>
@@ -30,7 +30,8 @@ const AuthLayout = ({ children }) => (
         </div>
       </div>
     </div>
-  </div>
+  
+  </>
 );
 
 export default AuthLayout;

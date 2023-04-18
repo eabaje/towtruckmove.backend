@@ -99,7 +99,7 @@ function Login() {
           <label className="custom-control-label">Save credentials.</label>
         </div>
         <button className="btn btn-block btn-primary mb-4">
-          {loading && <i classNameName="fa fa-spinner fa-spin"></i>} Signin
+          {loading && <i className="fa fa-spinner fa-spin"></i>} Signin
         </button>
         <p className="mb-2 text-muted">
           Forgot password?{" "}

@@ -45,10 +45,10 @@ function Index() {
   return (
     <>
       <MainLayout>
-      <div class="col-lg-7 col-md-12">
+      <div class="col-lg-12 col-md-12">
              
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <div class="card support-bar overflow-hidden">
                             <div class="card-body pb-0">
                                 <h2 class="m-0">350</h2>
@@ -74,27 +74,79 @@ function Index() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <div class="card support-bar overflow-hidden">
                             <div class="card-body pb-0">
                                 <h2 class="m-0">200</h2>
                                 <span class="text-c-green">Park Activities</span>
-                                <p class="mb-3 mt-3">Total number of Parks active.</p>
+                                <p class="mb-3 mt-3">Total number of Parks .</p>
                             </div>
                             <div id="support-chart1"></div>
                             <div class="card-footer bg-success text-white">
                                 <div class="row text-center">
                                     <div class="col">
                                         <h4 class="m-0 text-white">10</h4>
-                                        <span>Open</span>
+                                        <span>Active</span>
                                     </div>
                                     <div class="col">
                                         <h4 class="m-0 text-white">5</h4>
-                                        <span>Running</span>
+                                        <span>In-transit</span>
                                     </div>
                                     <div class="col">
                                         <h4 class="m-0 text-white">3</h4>
-                                        <span>Solved</span>
+                                        <span>Inactive</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">200</h2>
+                                <span class="text-c-green">Revenue</span>
+                                <p class="mb-3 mt-3">Total Revenue.</p>
+                            </div>
+                            <div id="support-chart1"></div>
+                            <div class="card-footer bg-success text-white">
+                                <div class="row text-center">
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">10</h4>
+                                        <span>Gross</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Profit</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">3</h4>
+                                        <span>Loss</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">200</h2>
+                                <span class="text-c-green">Cost</span>
+                                <p class="mb-3 mt-3">Total cost of operation.</p>
+                            </div>
+                            <div id="support-chart1"></div>
+                            <div class="card-footer bg-success text-white">
+                                <div class="row text-center">
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">10</h4>
+                                        <span>Fuel</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Tolls</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">3</h4>
+                                        <span>Repairs</span>
                                     </div>
                                 </div>
                             </div>
@@ -103,117 +155,12 @@ function Index() {
                 </div>
                
         </div>
-      <div class="col-lg-5 col-md-12">
-        
-          <div class="row">
-              <div class="col-sm-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row align-items-center">
-                              <div class="col-8">
-                                  <h4 class="text-c-yellow">$30200</h4>
-                                  <h6 class="text-muted m-b-0">All Earnings</h6>
-                              </div>
-                              <div class="col-4 text-right">
-                                  <i class="feather icon-bar-chart-2 f-28"></i>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card-footer bg-c-yellow">
-                          <div class="row align-items-center">
-                              <div class="col-9">
-                                  <p class="text-white m-b-0">% change</p>
-                              </div>
-                              <div class="col-3 text-right">
-                                  <i class="feather icon-trending-up text-white f-16"></i>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row align-items-center">
-                              <div class="col-8">
-                                  <h4 class="text-c-green">290+</h4>
-                                  <h6 class="text-muted m-b-0">Page Views</h6>
-                              </div>
-                              <div class="col-4 text-right">
-                                  <i class="feather icon-file-text f-28"></i>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card-footer bg-c-green">
-                          <div class="row align-items-center">
-                              <div class="col-9">
-                                  <p class="text-white m-b-0">% change</p>
-                              </div>
-                              <div class="col-3 text-right">
-                                  <i class="feather icon-trending-up text-white f-16"></i>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row align-items-center">
-                              <div class="col-8">
-                                  <h4 class="text-c-red">145</h4>
-                                  <h6 class="text-muted m-b-0">Task</h6>
-                              </div>
-                              <div class="col-4 text-right">
-                                  <i class="feather icon-calendar f-28"></i>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card-footer bg-c-red">
-                          <div class="row align-items-center">
-                              <div class="col-9">
-                                  <p class="text-white m-b-0">% change</p>
-                              </div>
-                              <div class="col-3 text-right">
-                                  <i class="feather icon-trending-down text-white f-16"></i>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-sm-6">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="row align-items-center">
-                              <div class="col-8">
-                                  <h4 class="text-c-blue">500</h4>
-                                  <h6 class="text-muted m-b-0">Downloads</h6>
-                              </div>
-                              <div class="col-4 text-right">
-                                  <i class="feather icon-thumbs-down f-28"></i>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card-footer bg-c-blue">
-                          <div class="row align-items-center">
-                              <div class="col-9">
-                                  <p class="text-white m-b-0">% change</p>
-                              </div>
-                              <div class="col-3 text-right">
-                                  <i class="feather icon-trending-down text-white f-16"></i>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        
-      </div>
+    
 
              <div class="col-xl-6 col-md-12">
                 <div class="card table-card">
                 <div class="card-header">
-                        <h5>Projects</h5>
+                        <h5>Assigned Tow Requests</h5>
                         <div class="card-header-right">
                         <div class="btn-group card-option">
                                 <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -335,7 +282,7 @@ function Index() {
             <div class="col-xl-6 col-md-12">
                 <div class="card latest-update-card">
                     <div class="card-header">
-                        <h5>Latest Updates</h5>
+                        <h5>Invoices</h5>
                         <div class="card-header-right">
                             <div class="btn-group card-option">
                                 <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

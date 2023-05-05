@@ -104,7 +104,7 @@ function Index() {
                         <div class="card support-bar overflow-hidden">
                             <div class="card-body pb-0">
                                 <h2 class="m-0">200</h2>
-                                <span class="text-c-green">Revenue</span>
+                                <span class="text-c-green">Daily Revenue</span>
                                 <p class="mb-3 mt-3">Total Revenue.</p>
                             </div>
                             <div id="support-chart1"></div>
@@ -130,23 +130,23 @@ function Index() {
                         <div class="card support-bar overflow-hidden">
                             <div class="card-body pb-0">
                                 <h2 class="m-0">200</h2>
-                                <span class="text-c-green">Cost</span>
-                                <p class="mb-3 mt-3">Total cost of operation.</p>
+                                <span class="text-c-green">Monthly Revenue</span>
+                                <p class="mb-3 mt-3">Total Revenue.</p>
                             </div>
                             <div id="support-chart1"></div>
                             <div class="card-footer bg-success text-white">
                                 <div class="row text-center">
-                                    <div class="col">
+                                <div class="col">
                                         <h4 class="m-0 text-white">10</h4>
-                                        <span>Fuel</span>
+                                        <span>Gross</span>
                                     </div>
                                     <div class="col">
                                         <h4 class="m-0 text-white">5</h4>
-                                        <span>Tolls</span>
+                                        <span>Profit</span>
                                     </div>
                                     <div class="col">
                                         <h4 class="m-0 text-white">3</h4>
-                                        <span>Repairs</span>
+                                        <span>Loss</span>
                                     </div>
                                 </div>
                             </div>

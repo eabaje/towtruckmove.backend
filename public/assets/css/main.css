@@ -23,8 +23,9 @@ body {
 }
 
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #555;
+    font-family: "Open Sans", sans-serif;
+   
+    color: #455a64;
     font-size: 11px
 }
 
